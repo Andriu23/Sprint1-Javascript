@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>EVENTS | CONTACT</title>
+    <link rel="shortcut icon" href="../imagenes/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header class="vh10 d-flex justify-content-between align-items-center bg-primary-subtle px-5 flex-wrap">
+        <img src="../imagenes/Logo_Amazing_Events.png" alt="" id="logo">
+        <nav class="navbar vw50">
+            <a class="btn btn-sm btn btn-light" href="../../index.html">HOME</a>
+            <a class="btn btn-sm btn btn-light" href="./upcoming_events.html">UPCOMING EVENTS</a>
+            <a class="btn btn-sm btn btn-light" href="./past_events.html">PAST EVENTS</a>
+            <a class="btn btn-sm btn btn-light" href="#">CONTACT</a>
+            <a class="btn btn-sm btn btn-light" href="./stats.html">STATS</a>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-dark-subtle">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner d-flex text-center my-2">
+                    <div class="carousel-item">
+                        <H1>HOME</H1>
+                    </div>
+                    <div class="carousel-item">
+                        <H1>UPCOMING EVENTS</H1>
+                    </div>
+                    <div class="carousel-item">
+                        <H1>PAST EVENTS</H1>
+                    </div>
+                    <div class="carousel-item active">
+                        <H1>CONTACT</H1>
+                    </div>
+                    <div class="carousel-item">
+                        <H1>STATS</H1>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <div class="container d-flex justify-content-center align-items-center fs-5 fst-italic text-light mt-5">
+            <form action="/show_data.html" method="get">
+                <div class="mb-3">
+                    <label class="form-check-label" for="name">Nombre:</label>
+                    <input placeholder="Por favor ingrese su nombre" class="form-control form-control-sm rem30" name="name" type="text" id="name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-check-label" for="email">Email:</label>
+                    <input placeholder="Por favor ingrese su email" class="form-control form-control-sm rem30" name="email" type="email" id="email">
+                </div>
+                <div>
+                    <label class="form-check-label" for="msn">Message:</label>
+                    <input placeholder="Por favor escriba un breve mensaje" class="form-control form-control-sm rem8 rem30" name="msn" type="text" id="msn">
+                </div>
+                <div class="col-auto mt-2 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-light">submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="vh10 d-flex justify-content-between align-items-center bg-primary-subtle flex-wrap">
+        <div class=" d-flex align-items-center">
+            <nav class="navbar">
+                <div class="container">
+                  <a class="navbar-brand" href="https://www.facebook.com/">
+                    <img class="redes" src="../imagenes/FACEBOOK.png" alt="Bootstrap">
+                  </a>
+                </div>
+              </nav>
+              <nav class="navbar">
+                <div class="container">
+                  <a class="navbar-brand" href="https://www.instagram.com/accounts/login/">
+                    <img class="redes" src="../imagenes/INSTAGRAM.png" alt="Bootstrap">
+                  </a>
+                </div>
+              </nav>
+              <nav class="navbar">
+                <div class="container">
+                  <a class="navbar-brand" href="https://twitter.com/i/flow/login/">
+                    <img class="redes" src="../imagenes/TWITTER.png" alt="Bootstrap" >
+                  </a>
+                </div>
+              </nav>
+        </div>
+        <div class="badge fst-italic fs-4 text-dark">
+            CohortFS048
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
